@@ -4,19 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Exercisio</title>
+    <link rel="stylesheet" href="css/styles.css" />
 </head>
 
 <body>
     <form class="form" action="" method="'get">
-        <p>Nome: <imput type="text" class="nome"></p>
-        <p>Sobrenome: <imput type="text" class="Sobrenome"></p>
-        <p>Peso: <imput type="text" class="Peso"></p>
-        <p>Altura: <imput type="text" class="Altura"></p>
-            <button>Enviar</button>
+        <label for='nome'>Nome:</label>
+        <input type="text" id="nome" class="nome">
+        <label for>Sobrenome:</label>
+        <input type="text" id='sobrenome' class="sobrenome">
+        <label for="peso">Peso:</label>
+        <input type="text" id='peso' class="peso">
+        <label for='altura'>Altura:</label>
+        <input type="text" id='altura' class="altura">
+        <button type='submit'>Enviar</button>
     </form>
-
-
-
+    <div class='resultados'></div>
 
     <script src="script.js"></script>
 </body>
